@@ -5,5 +5,8 @@ app = Flask(__name__, template_folder="templates")
 
 @app.route("/")
 def index():
-    template = render_template("index.html")
-    return template
+    return "Hello, World!"
+
+@app.route("/trainwreck-comic")
+def trainwreck_comic():
+    return render_template("index.html")
