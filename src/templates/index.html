@@ -7,9 +7,12 @@
     
     <body>
         <img class="logo" src="../static/trainwreck_logo.png">
-
         <div>
-            <img class="page" src="../static/pages/trainwreck_ch1_p1.png">
+            <img class="page" src="{{ page }}">
+        </div>
+        <div class="page_arrows">
+            <a href="/trainwreck-comic/{{ page_num - 1 }}">&lt;&lt;</a>
+            <a href="/trainwreck-comic/{{ page_num + 1 }}">&gt;&gt;</a>
         </div>
     </body>
 </html>

@@ -12,3 +12,9 @@
     top: 100px;
     left: 250px;
 }
+
+.page_arrows {
+    position: absolute;
+    top: 80px;
+    left: 250px;
+}
