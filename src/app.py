@@ -22,3 +22,7 @@ def trainwreck_comic(page_num=1):
         return redirect(f"/trainwreck-comic/{page_count}")
 
     return render_template("index.html", page_num=page_num, page_count=page_count, page = pages[page_num - 1])
+
+@app.route("/trainwreck-comic/characters")
+def characters_page():
+    return render_template("characters.html")
