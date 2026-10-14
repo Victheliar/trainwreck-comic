@@ -35,3 +35,24 @@ body {
     top: 80px;
     right: 325px;
 }
+
+.character_pfp {
+    position: absolute;
+    top: 100px;
+    width: auto;
+    border: 5px solid black;
+    border-radius: 50%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    position: relative;
+    text-align: center;
+}
