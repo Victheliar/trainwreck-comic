@@ -10,9 +10,13 @@
         <div>
             <img class="page" src="{{ page }}">
         </div>
-        <div class="page_arrows">
-            <a href="/trainwreck-comic/{{ page_num - 1 }}">&lt;&lt;</a>
-            <a href="/trainwreck-comic/{{ page_num + 1 }}">&gt;&gt;</a>
+        <div class="page_arrows_left">
+            <a href="/trainwreck-comic/1">&lt;&lt;</a> First
+            <a href="/trainwreck-comic/{{ page_num - 1 }}">&lt;</a> Previous
+        </div>
+        <div class="page_arrows_right">
+            <a href="/trainwreck-comic/{{ page_num + 1 }}">&gt;</a> Next
+            <a href="/trainwreck-comic/{{ page_count }}">&gt;&gt;</a> Newest
         </div>
     </body>
 </html>

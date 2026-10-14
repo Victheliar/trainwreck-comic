@@ -13,8 +13,14 @@
     left: 250px;
 }
 
-.page_arrows {
+.page_arrows_left {
     position: absolute;
     top: 80px;
     left: 250px;
+}
+
+.page_arrows_right {
+    position: absolute;
+    top: 80px;
+    right: 260px;
 }
