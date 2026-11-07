@@ -37,11 +37,19 @@ body {
 }
 
 .character_pfp {
-    position: absolute;
-    top: 100px;
+    display: flex;
+    float: left;
     width: auto;
     border: 5px solid black;
     border-radius: 50%;
+}
+
+character_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    width: 75%;
 }
 
 h1 {
